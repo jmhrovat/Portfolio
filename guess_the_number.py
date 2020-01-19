@@ -1,3 +1,8 @@
+# Write a programme where the computer randomly generates a number between 0 and 20. 
+# The user needs to guess what the number is. 
+# If the user guesses wrong, tell them their guess is either too high, or too low. 
+
+
 import random
 
 print("Welcome to guess the number")
@@ -14,4 +19,4 @@ while player_won is not True:
     else:
         print("Correct!")
         player_won = True
-# python guess_the_number.py
+
